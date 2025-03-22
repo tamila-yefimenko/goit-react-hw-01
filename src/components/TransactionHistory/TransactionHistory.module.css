@@ -38,7 +38,7 @@ td {
   padding-bottom: 8px;
 }
 
-.tableItem:nth-child(even) {
+.tableItem:nth-child(odd) {
   background-color: rgb(213, 213, 213);
 }
 
