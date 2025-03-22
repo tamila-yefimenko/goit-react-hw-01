@@ -1,0 +1,66 @@
+.wrapper {
+  width: 700px;
+  border: solid 4px rgb(14, 14, 14);
+  border-radius: 20px;
+  background-color: rgb(248, 247, 247);
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.iconWrapper {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  width: 350px;
+  border-radius: 50%;
+  background-color: rgb(56, 55, 55);
+  margin-bottom: 30px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.1;
+  margin: 0 0 30px 0;
+}
+
+.tag,
+.location {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.1;
+  color: gray;
+  margin: 0 0 15px 0;
+}
+
+.userList {
+  display: flex;
+  border-top: solid 4px gray;
+}
+
+.userItem {
+  flex-basis: calc(100% / 3);
+  padding: 25px 0 25px 0;
+  background-color: rgb(211, 210, 210);
+}
+
+.userItem:not(:last-child) {
+  border-right: solid 4px gray;
+}
+
+.spanText {
+  display: block;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.1;
+  color: rgb(14, 14, 14);
+  margin-bottom: 10px;
+}
+
+.spanNumber {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1.1;
+}
